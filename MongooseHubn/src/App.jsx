@@ -8,6 +8,8 @@ import Documents from './pages/Documents'
 import Queries from './pages/Queries'
 import Indexes from './pages/Indexes'
 import Aggregation from './pages/Aggregation'
+import CrudOperation from './pages/CrudOperation'
+import Transactions from './pages/Transactions'
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -27,6 +29,8 @@ function App() {
                 <Route path="/queries" element={<Queries />} />
                 <Route path="/indexes" element={<Indexes />} />
                 <Route path="/aggregation" element={<Aggregation />} />
+                <Route path="/CrudOperation" element={<CrudOperation />} />
+                <Route path="/Transactions" element={<Transactions />} />
               </Routes>
             </div>
           </main>

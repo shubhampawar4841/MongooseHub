@@ -17,6 +17,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
         <Link to="/queries" className="block py-2 px-6 text-gray-600 hover:bg-gray-100 hover:text-gray-900">Queries</Link>
         <Link to="/indexes" className="block py-2 px-6 text-gray-600 hover:bg-gray-100 hover:text-gray-900">Indexes</Link>
         <Link to="/aggregation" className="block py-2 px-6 text-gray-600 hover:bg-gray-100 hover:text-gray-900">Aggregation</Link>
+        <Link to="/CrudOperation" className="block py-2 px-6 text-gray-600 hover:bg-gray-100 hover:text-gray-900">CrudOperation</Link>
+        <Link to="/Transactions" className="block py-2 px-6 text-gray-600 hover:bg-gray-100 hover:text-gray-900">Transactions</Link>
+
       </nav>
     </div>
   )
