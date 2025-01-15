@@ -8,10 +8,7 @@ async fucntion run() {
                 "age": 30,
                 "email": "johndoe@example.com",
                 "hobbies": ["reading", "traveling", "coding"],
-                "address": {
-                    "street": "123 Main St",
-                    "city": "New York"
-                }
+              
             }
         )
     }
